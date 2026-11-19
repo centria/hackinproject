@@ -153,7 +153,7 @@ docker compose version
 
 ### Vaihe B – Käynnistä laboratorio
 
-Siirry hakemistoon, jossa `compose.yaml` sijaitsee.
+Siirry hakemistoon, jossa `docker-compose.yml` sijaitsee.
 
 ```powershell
 docker compose up -d --build

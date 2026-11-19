@@ -80,7 +80,7 @@ Mitä Windowsin kirjautumissalasana suojaa tässä kokonaisuudessa?
         ```bash
         sudo umount /mnt/windows
         sudo ntfsfix /dev/sdXn
-        sudo mount -t ntfs-3g -o remove_hiberfile /dev/sdXX /media/windows
+        sudo mount -t ntfs-3g -o remove_hiberfile /dev/sdXX /mnt/windows
         ```
 5. Mennään polkuun 
     ```bash
